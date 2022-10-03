@@ -1,0 +1,31 @@
+.PersonCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max;
+  height: max-content;
+  position: sticky;
+  z-index: 1;
+  background: rgba(133, 133, 133, 0.645);
+  overflow-x: hidden;
+  padding: 8px 0;
+  margin: 10px;
+  
+}
+
+.PersonCard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.PersonCard a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0040ff;
+    display: block;
+    text-align: center;
+  }

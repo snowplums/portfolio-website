@@ -28,13 +28,12 @@
 .sidenav {
   width: 300px;
   height: 100vh;
-  position: fixed;
+  position: sticky;
   z-index: 1;
   background: #eee;
   overflow-x: hidden;
   padding: 8px 0;
   margin: 10px;
-  
 }
 
 .sidenav p{
@@ -44,6 +43,9 @@
   text-decoration: none;
   display: block;
   color: #0040ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidenav a {
@@ -54,3 +56,4 @@
   display: block;
   text-align: center;
 }
+
