@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 9000px;
 }
 
 .App-logo {
@@ -25,35 +26,10 @@
 
 
 
-.sidenav {
-  width: 300px;
-  height: 100vh;
-  position: sticky;
-  z-index: 1;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
-  margin: 10px;
-}
 
-.sidenav p{
-  font-size: large;
-  padding: 2px, 1px, 2px, 5px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  color: #0040ff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #0040ff;
-  display: block;
-  text-align: center;
-}
+.page {
+  width: fit-content;
+  height: fit-content;
 
+}
