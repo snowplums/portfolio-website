@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 9000px;
+  height: fit-content;
 }
 
 .App-logo {
@@ -29,7 +29,7 @@
 
 
 .page {
-  width: fit-content;
-  height: fit-content;
-
+  display: flex;
+  position: static;
+  left: 500px;
 }

@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       
-        <Sidebar />
-
-      <div>
+       
+      
+          <Sidebar />
+        
         <Home />
-      </div>
 
     </div>
   );
