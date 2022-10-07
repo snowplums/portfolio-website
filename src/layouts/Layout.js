@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
 
-const DefaultPage = () =>{
+const Layout = () =>{
     return(
         <div>
             <Sidebar />
@@ -10,4 +10,4 @@ const DefaultPage = () =>{
 
 }
 
-export default DefaultPage;
+export default Layout;
