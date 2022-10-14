@@ -15,12 +15,16 @@ const Sidebar = () => {
           <p>
             Hello! Welcome to my site!
           </p>
+          
+
+
+          <Link to="/home">About</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/links">Links</Link>
 
         </div>
         
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/links">Links</Link>
+        
       </div>
     );
 }

@@ -10,13 +10,16 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 function App() {
   return (
     <div>
+      
       <BrowserRouter>
-      <Routes>
-        <Route exact path='/' component={Home}/>
-        <Route path='/projects' component={Projects}/>
-        <Route path='/links' component={Links}/>
-      </Routes>
-    </BrowserRouter>
+      <Sidebar />
+        <Routes>
+          <Route exact path='/home' element={<Home />}/>
+          <Route path='/projects' element={<Projects />}/>
+          <Route path='/links' element={<Links />}/>
+        </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }

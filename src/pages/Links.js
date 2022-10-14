@@ -1,8 +1,8 @@
 import React from "react";
-
+import './page.css'; 
 const Links= () =>{
     return(
-        <div>
+        <div className="page">
             <h1>links</h1>
             <p>
                 Stuff
