@@ -1,3 +1,22 @@
 .cell {
     color: aqua;
+    border: 2px;
+    background-color: rgb(189, 184, 178);
+
+}
+
+.cell h3 {
+    font-family: monospace;
+}
+
+.cell img{
+    align-items: center;
+
+}
+
+
+.cell p{
+    align-items: center;
+    text-align: center;
+    display: flex;
 }
