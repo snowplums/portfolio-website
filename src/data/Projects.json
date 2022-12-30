@@ -1,0 +1,21 @@
+[
+    {
+        "title":"Sentence Scrambler" ,
+        "link" :"www.google.com" ,
+        "image" :"/squashface.png" ,
+        "desc" : "Thing my mom made me make so she could practice englihs."
+    },
+    {
+        "title":"Bruh" ,
+        "link" :"www.google.com",
+        "image" :"/squashface.png" ,
+        "desc" : "asdfasdfasdfasdf"
+    },
+    {
+        "title":"Chem-Helper" ,
+        "link" :"https://waynemm14.github.io/chem-helper/",
+        "image" :"/squashface.png" ,
+        "desc" : "Converts distance from each other lol"
+    }
+    
+]

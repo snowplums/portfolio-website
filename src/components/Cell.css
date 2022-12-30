@@ -1,8 +1,9 @@
 .cell {
     color: aqua;
-    border: 2px;
+    border: 10px;
+    margin: 10px;
     background-color: rgb(189, 184, 178);
-
+    
 }
 
 .cell h3 {
